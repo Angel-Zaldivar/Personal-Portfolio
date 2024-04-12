@@ -116,6 +116,14 @@ nav ul li {
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
 
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .hero img {
+    height: auto;
+    width: 100%;
+  }
+}
+
 .bio {
   width: 25rem;
   padding: 0.625rem;
