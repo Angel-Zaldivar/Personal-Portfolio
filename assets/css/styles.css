@@ -117,7 +117,7 @@ nav ul li {
 }
 
 /* Media query for mobile devices */
-@media (max-width: 200px) {
+@media screen and (max-width: 720px) {
   .hero img {
     height: auto;
     width: 100%;
